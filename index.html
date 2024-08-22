@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Björn Lütjens - PhD Candidate at MIT</title>
+    <title>Björn Lütjens - Postdoc at MIT</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -106,10 +106,10 @@
 
                   I am concerned that running a high-resolution (1km) climate model can take multiple weeks on the world's largest supercomputers; consuming the same electricity a coal power plant would generate in one hour. To overcome the computational complexity, we are reshaping machine learning models into fast copies, or 'surrogates', of climate models. The core difficulty is to ensure physical-consistency in the surrogates, such that policy- or decision-makers can trust the machine learning surrogates. <br><br>
 
-                  My research has won grants by NSF, Climatechange.ai, ESA, Portugal Space, NASA, IBM, Microsoft, NVIDIA, MIT Pkg, and MIT Legatum. I advised two teams of senior researchers at the NASA/SETI Frontier Development Lab, co-founded the ForestBench Consortium, interned with IBM Future of Climate and BRT (John Deere), earned an M.Sc. from MIT in safe and robust deep reinforcement learning, and a B.Sc. from TUM in Engineering Science. I also windsurf poorly, jam, <a href="https://blutjens.github.io/docs/clim_impact_of_clim_sims_a_sim_1st_april.pdf">joke</a>, and love meeting new people - you are no expection - please don't hesitate to reach out. We have two undergraduate opportunities in <a href="https://blutjens.github.io/docs/urop_hsl_climate_visualizations_summer22.pdf"> visualizing floods</a> or <a href="https://blutjens.github.io/docs/urop_hsl_cmip6_downscaling_summer22.pdf">superresolution of climate models.</a>
+                  My research has won grants in the big tech (IBM), government (NSF), nonprofit (CCAI), and space (EAS) sectors. I advised two teams of senior researchers at the NASA/SETI Frontier Development Lab, interned with IBM Future of Climate and John Deere-BRT, earned an M.Sc. from MIT in safe and robust deep reinforcement learning, and a B.Sc. from TUM in Engineering Science. I also windsurf poorly. <!--, jam, <a href="https://blutjens.github.io/docs/clim_impact_of_clim_sims_a_sim_1st_april.pdf">joke</a>, and love meeting new people - you are no expection - please don't hesitate to reach out. -->
                   <!--Running a high-resolution climate simulation can take weeks on modelsare I am particularly concerned about the computational cost of climate models: running a high climate simulation  As deep learning algorithms are widely considered 'black-box', my work focuses on increasing trust and transparency when using deep learning in predicting and visualizing climate change. My research interests include physics-informed neural networks, uncertainty quantification, Earth system modeling, and forest carbon quantification. I have previously obtained my M.Sc. at MIT in Autonomous Systems, pioneering with Prof. Jon How safe and robust deep reinforcement learning techniques. If you are interested in working with us feel free to contact me and check out the projects below or two UROP position on <a href="http://lutjens.scripts.mit.edu/bjorn/docs/urop_hsl_climate_surrogate_fall21.pdf">fast deep learning-based climate models</a> or <a href="http://lutjens.scripts.mit.edu/bjorn/docs/urop_hsl_antarctica_fall21.pdf">visualizing the melting Antarctic.-->
                   </small></p>
-                  <p><small> Click for <a href="https://www.linkedin.com/in/bjorn-lutjens/">linkedin <span class="icon-linkedin"></span></a>, <a href="https://scholar.google.com/citations?user=AayqHVcAAAAJ&hl=en/">google scholar <span class="icon-google"></a>, <a href="https://hsl.mit.edu">our lab <span class="icon-briefcase"></span></a></a>, or <a href="https://twitter.com/bjornlutjens/">twitter <span class="icon-twitter"></span>.</a></small></p>
+                  <p><small> Click for <a href="https://www.linkedin.com/in/bjorn-lutjens/">linkedin <span class="icon-linkedin"></span></a>, <a href="https://scholar.google.com/citations?user=AayqHVcAAAAJ&hl=en/">google scholar <span class="icon-google"></a>, <a href="https://climategrandchallenges.mit.edu/flagship-projects/bringing-computation-to-the-climate-challenge/">our MIT BC3 group <span class="icon-briefcase"></span></a></a>, or <a href="https://twitter.com/bjornlutjens/">twitter <span class="icon-twitter"></span>.</a></small></p>
                   <!--<p><a href="#">Checkout my resume</a></p>-->
                   <!--ul class="ftco-footer-social list-unstyled mt-4">
                     <li><a href="https://www.linkedin.com/in/bjorn-lutjens/"><span class="icon-linkedin"></span></a></li>
@@ -118,7 +118,7 @@
                     <li><a href="https://twitter.com/bjornlutjens/"><span class="icon-twitter"></span></a></li>
                   </ul>-->
                   <p><small>Email: <a href="#">lutjens [at] mit [dot] edu</a></small></p>
-                  <p><small>[Last updated Feb. 9th 2022]</small></p> 
+                  <p><small>[Last updated Aug. 22nd 2024]</small></p> 
                 </div>
               </div>
             </div>
@@ -178,104 +178,57 @@
             </div>
           </div>
           <div class="row no-gutters">
-          <!-- Matryoshka Neural Operators - UA-PINNs -->
-          <div class="block-3 d-md-flex" data-scrollax-parent="true"> <!-- add ftco-animate to class for animation-->
-            <a href="https://climate-viz.github.io/" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/dte_coasts_demo.jpg')" data-scrollax="properties: {translateY: '-30%'}">
-              <div class="icon d-flex text-center justify-content-center align-items-center">
-                <span class="icon-web_asset"></span>
-              </div>
-            </a>
-            <!--iframe class="image order-2 d-flex justify-content-center align-items-center " src="https://bluetjens.github.io/" title="Demo of physically-consistent GANs for coastal flood visualization; Earth Intelligence Engine" height="500px" width="500px" frameborder="0" margin-top="-610px" margin-bottom="-610px" padding-top="0%"></iframe><style="border:none">height="500px" width="500px" frameborder="0" margin-top="-610px" margin-bottom="-610px" padding-top="0%" style="position:absolute; clip:rect(0px,1100px,800px,0px)"-->
-            <div class="text order-1">
-              <h2 class="heading"><a>Speeding up Climate Models with Machine Learning</a></h2>
-              <p>Because climate models take so long to run, climate researchers cannot explore local impacts of uncertain or <i>what-if</i> climate policy scenarios quickly. Researchers in fluids or climate have long been accelerating the underlying partial differential equation (PDE) solvers. But, most approaches require too much domain knowledge to adapt the solver to each of the hundreds of equations in a climate model. We are proposing a seemingly radical approach: train machine learning (ML) models to directly map the climate scenario to local impact. While pure-ML models would indeed be too radical, we are developing algorithms to exploit knowledge from PDE solvers and enforce physical-constraints. On our journey, we have already developed a novel learning-based multiscale PDE solver, a fast uncertainty propagation algorithm, and a fast surrogate for coastal flooding (see Digital Twin Earth: Coasts).</p>
-              <p>Click for <a href="https://slideslive.com/38986161/multiscale-neural-operator-learning-fast-and-gridindependent-pde-solvers?ref=">presentation <span class="icon-videocam"></span></a>, paper on <a href="https://arxiv.org/abs/2207.11417">multiscale PDE solver<span class="icon-picture_as_pdf"> </span>,</a> and paper on <a href="https://openreview.net/forum?id=218sl_mPChc">uncertainty<span class="icon-picture_as_pdf"> </span>,</a> and <a href="https://climate-viz.github.io/">demo<span class="icon-web_asset"> </span>.</a>
-              </p>
-              <h4 class="subheading">presented at <br>ICML AI4Science'22, NeurIPS DLDE'21, <br> AGU'21, <br>ICLR AIMOCC'21, <br>AGU'20  and <br>CompSust'20</h4>
-              <h4 class="subheading">supported by NSF Eager, MIT Portugal, MIT-IBM Watson AI, IBM Future of Climate, and USAF</h4>
-            </div>
-            <!--div class="col-md" style="height:500px;"-->
-              <!--iframe src="https://bluetjens.github.io/" title="Demo of physically-consistent GANs for coastal flood visualization; Earth Intelligence Engine" style="frameborder:0; top:-150px"></iframe>
-            </div-->  
-          </div>
-
-          <!-- Digital Twin Earth - Coasts -->
-          <div class="block-3 d-md-flex" data-scrollax-parent="true">
-              <a href="https://youtu.be/7wjtcJxRjKk" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/digital_twin_earth_coasts.jpg')" data-scrollax=" properties: { translateY: '-30%'}" >
-                <div class="icon d-flex text-center justify-content-center align-items-center">
-                  <span class="icon-videocam"></span>
-                </div>
-              </a>
-
-            <div class="text order-2">
-              <h2 class="heading"><a>Digital Twin Earth: Coasts</a></h2>
-              <p> Simulating coastal floods at high-resolution is computationally too expensive for real-time inference, uncertainty quantification, or low-income countries. We are leveraging neural operators, a new physics-infused deep learning technique, to learn a coastal flood model that is magnitudes faster. </p>
-              <p>Click for <a href="https://youtu.be/7wjtcJxRjKk">presentation <span class="icon-videocam"></span></a> and <a href="https://arxiv.org/abs/2110.07100">paper<span class="icon-picture_as_pdf"></span></a>.</p>
-              <h4 class="subheading">Presented at <br> NeurIPS ML4PS'21 and <br>NASA/SETI Frontier Development Lab '21<br></h4>
-              <h4 class="subheading">supported by NASA, USGS, MIT Portugal, Institute for Simulation Intelligence, NVIDIA, and Google Cloud</h4>
-            </div>
-          </div>
-
-          <!-- EIE -->
-          <div class="block-3 d-md-flex" data-scrollax-parent="true">
-            <!--div class="column col-md-5 order-2">
-              <a href="https://arxiv.org/abs/2010.08103/" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/eie_trillium_demo_portrait.png'); width:105%; ;" data-scrollax=" properties: { translateY: '-30%'}">
+            <!-- internal variability and pattern scaling -->
+            <div class="block-3 d-md-flex" data-scrollax-parent="true"> <!-- add ftco-animate to class for animation-->
+              <a href="https://www.arxiv.org/abs/2408.05288/" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/climatebench_results_webpage.png')" data-scrollax="properties: {translateY: '-30%'}">
                 <div class="icon d-flex text-center justify-content-center align-items-center">
                   <span class="icon-web_asset"></span>
                 </div>
               </a>
-              <p> </p>
-            </div-->
-              <a href="https://vimeo.com/452163867/bdeab43474/" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/fdl_oceane.jpg'); background-size:contain; clip:rect(0px,60px,200px,0px);" data-scrollax=" properties: { translateY: '-30%'}">
+              <div class="text order-1">
+                <h2 class="heading"><a>Fast Climate Emulators</a></h2>
+                <p>Because climate models take so long to run, scientists invented emulators. Emulators are approximations of climate models that can quickly compute climate forecasts when running the full climate model is too expensive. In our latest paper, we examine how different emulation techniques can be compared with each other. We find that a simple linear regression-based emulator can forecast local temperatures and rainfall more accurately than a complex machine learning-based emulator on a commonly used benchmark dataset. It is surprising that linear regression is better for local rainfall, which is expected to be more accurately emulated by nonlinear techniques. We identify that noise from natural variations in climate, called internal variability, is one reason for the comparatively good performance of linear regression on local rainfall. This implies that addressing internal variability is necessary for assessing the performance of climate emulators. Thus, we assemble a benchmark dataset with reduced internal variability and, using it, show that a deep learning-based emulator can be more accurate for emulating local rainfall, while linear regression continues to be more accurate for temperature.</p>
+                <p>Click for <a href="https://www.climatechange.ai/papers/iclr2024/50#recording=">presentation <span class="icon-videocam"></span></a>, the <a href="https://www.arxiv.org/abs/2408.05288"> preprint <span class="icon-picture_as_pdf"> </span>,</a> and the <a href="https://github.com/blutjens/climate-emulator">code <span class="icon-github"></span>; a demo will be released soon.</a>
+                </p>
+                <h4 class="subheading">presented at <br>ICLR CCML '24, EGU'24</h4>
+                <h4 class="subheading">supported by Schmidt Futures and MIT Climate Grand Challenges</h4>
+              </div>
+            </div>
+
+            <!-- Matryoshka Neural Operators - UA-PINNs -->
+            <div class="block-3 d-md-flex" data-scrollax-parent="true"> <!-- add ftco-animate to class for animation-->
+              <a href="https://slideslive.com/38986161/multiscale-neural-operator-learning-fast-and-gridindependent-pde-solvers?ref=" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/multiscale_neural_operator.jpg')" data-scrollax="properties: {translateY: '-30%'}">
                 <div class="icon d-flex text-center justify-content-center align-items-center">
                   <span class="icon-videocam"></span>
                 </div>
               </a>
-
-
-            <!-- TODO: Reintegrate slider once it's on an https address.
-
-            div class="order-2 d-flex justify-content-center align-items-center" style="width:300px; height:555px; overflow:hidden">
-              <iframe src="http://trillium.tech/eie/" height="100%" width="100%" scrolling="no" style="background: #FFFFFF; position:relative; clip:rect(185px,658px,955px,7px); top:-125px; left:0px; "> 
-              </iframe>
-            </div-->
-
-            <div class="text order-1">
-              <h2 class="heading"><a>Earth Intelligence Engine</a></h2>
-              <p>As climate change increases the intensity of natural disasters, society needs better tools for climate risk communication. We are creating a "Google Earth of the future"; a global visualization of how climate change will shape our landscape. On our path, we proposed the first deep learning pipeline to ensure physical-consistency in synthetic satellite imagery and are publishing a dataset on 25k labelled satellite images of coastal floods and melting Arctic sea ice. Explore our results at <a href="https://climate-viz.github.io/">climate-viz.github.io</a>.
-              </p>
-              <p>Click for <a href="https://vimeo.com/452163867/bdeab43474/">presentation <span class="icon-videocam"></span></a>, <a href="https://arxiv.org/abs/2010.08103/">paper <span class="icon-picture_as_pdf"></span></a>, <a href="https://climate-viz.github.io/">demo <span class="icon-web_asset"></span></a>, and <a href="https://gitlab.com/frontierdevelopmentlab/fdl-us-2020-earth-engine/">code <span class="icon-github"></span>.</a></p>
-              <h4 class="subheading">presented at <br>ICLR AIMOCC'21 and <br>NASA/SETI Frontier Development Lab'20</h4>
-              <h4 class="subheading">supported by MIT Portugal, NASA, Google Cloud, and Microsoft AI for Earth</h4>
+              <div class="text order-1">
+                <h2 class="heading"><a>Fast & Accurate Climate Model Parametrizations</a></h2>
+                <p> In practice, climate models are run at 50-250km resolution per grid cell due to computational constraints. However, some dynamics such as cloud formation requires solving equations at a higher grid resolution. Because that is too expensive, the influence of high- onto low-resolution dynamics is captured in physics- or function-based approximation terms. In our work titled Multiscale Neural Operator, we have shown that neural operators can learn these parametrization terms from very high-resolution simulations while offering a flexible grid representation and cutting compute from quadratic to quasilinear in comparison to fully-resolved solver. Further, there is a concerted effort, called ClimSim, to benchmark the best ML models for parametrizations.</p>
+                <p>Click for <a href="https://slideslive.com/38986161/multiscale-neural-operator-learning-fast-and-gridindependent-pde-solvers?ref=">presentation <span class="icon-videocam"></span></a>, and the <a href="https://arxiv.org/abs/2207.11417">preprint <span class="icon-web_asset"> </span></a>. 
+                </p>
+                <h4 class="subheading">presented at <br>AGU '23 best student presentation award, <br>ICML AI4Science'22</h4>
+                <h4 class="subheading">supported by MIT-IBM Watson AI, IBM Future of Climate, and USAF</h4>
+              </div>
             </div>
-          </div>
 
-
-          <!-- ForestBench -->
-          <div class="block-3 d-md-flex" data-scrollax-parent="true">
-            <div class="column col-md-5 order-1">
-            <a href="https://arxiv.org/abs/1912.07850" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/team2.jpeg'); width:105%" data-scrollax=" properties: { translateY: '-30%'}" >
+            <!-- meltwater downscaling -->
+            <div class="block-3 d-md-flex" data-scrollax-parent="true"> <!-- add ftco-animate to class for animation-->
+              <a href="https://ui.adsabs.harvard.edu/abs/2023EGUGA..25.4044L/abstract" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/hrmelt.jpg')" data-scrollax="properties: {translateY: '-30%'}">
                 <div class="icon d-flex text-center justify-content-center align-items-center">
-                  <span class="icon-picture_as_pdf"></span>
+                  <span class="icon-web_asset"></span>
                 </div>
-            </a>
-            <p> </p>
-            <a href="https://youtu.be/Qqs30vFo5_E" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/team.jpg'); width:105%" data-scrollax=" properties: { translateY: '-30%'}" >
-                <div class="icon d-flex text-center justify-content-center align-items-center">
-                  <span class="icon-videocam"></span>
-                </div>
-            </a>
+              </a>
+              <div class="text order-1">
+                <h2 class="heading"><a>Fast Data-Driven Downscaling</a></h2>
+                <p> Downscaling methods are necessary to map low-resolution climate projections onto resolutions that are relevant for local decision making (1km or less). In this project, we are benchmarking data-driven methods for downscaling surface meltwater in Greenland. We are aiming to create the highest resolution maps of surface meltwater in Greenland. This is work in progress.</p>
+                <p>Click for an <a href="https://ui.adsabs.harvard.edu/abs/2023EGUGA..25.4044L/abstract">abstract <span class="icon-web_asset"></span></a>. 
+                </p>
+                <h4 class="subheading">presented at <br>EGU '23</h4>
+                <h4 class="subheading">supported by NSF</h4>
+              </div>
             </div>
-            <div class="text order-2">
-              <h2 class="heading"><a>ForestBench Consortium</a></h2>
-              <p>Small-holder forest conservation projects are often excluded from global carbon markets, because monitoring the forest carbon is too expensive or inaccurate. 
-                We create deep learning-based forest inventories from drone and smartphone imagery, collected by locals, to cheaply and accurately estimate the tree-sequestered carbon.
-                The transparent carbon monitoring allows local landowners to participate in the global carbon markets and subsidize their livelihood through maintaining and rebuilding rainforest. Learn more at <a href="https://www.forestbench.org/">forestbench.org</a>.</p>
-                <p>Click for <a href="https://youtu.be/Qqs30vFo5_E">presentation <span class="icon-videocam"></span></a>, <a href="https://arxiv.org/abs/2201.11192">AAAI '22 paper <span class="icon-picture_as_pdf"></span></a>, and <a href="https://arxiv.org/abs/1912.07850/">NeurIPS '19 paper <span class="icon-picture_as_pdf"></span></a>.</a></p>
-              <h4 class="subheading"> presented at <br>AAAI'22, <br>ICML CCML'21 (spotlight),<br>ICLR CCML'20 (best proposal paper),<br> KDD Fragile Earth '20,<br> NeurIPS CCAI '19, <br>DGRS '19</h4>
-              <h4 class="subheading">supported by ClimateChange.AI, Schmidt Futures, Quadrature Climate Foundation, MIT PKG, Microsoft AI for Earth, NASA Space Grant, MIT Sandbox, and MIT Legatum</h4>
-            </div>
-          </div>
+
           </div>
           <div class="row justify-content-center "> <!-- add mb-5 pb-5 for padding bottom-->
             <div class="col-md-7 text-center heading-section">
@@ -287,18 +240,21 @@
               <!--h2 class="heading"><a>The World as a Graph: Improving El Nino Forecasts with Graph Neural Networks</a></h2-->
               <p> I am very grateful for working together, advising, and learning from undergraduate and Master students: <br> 
               <a href="https://www.linkedin.com/in/ana-mata/">Ana Mata-Payerro</a><br>
-              <a >Lea M Hadzic</a><br>
+              <a href="https://www.linkedin.com/in/lea-m-hadzic-bb4176265/">Lea M Hadzic</a><br>
               <a href="https://www.linkedin.com/in/matthew-kearney/">Matthew Kearney</a><br>
               <a href="https://www.linkedin.com/in/viviantt9/">Vivian Trinh</a><br>
               <a href="https://salvarc.github.io/">Salva Rühling Cachay</a><br>
+              <a href="https://www.linkedin.com/in/til-widmann-0b51ab21b/">Til Widmann</a><br>
               <a href="https://rupakv.com/">Rupa Kurinchi-Vendhan</a><br>
+              <a href="https://www.burki-lab.net/thomas-huber-msc-student.html">Thomas Huber</a><br>
               <a href="https://www.linkedin.com/in/ernest-pokropek-85a688150/">Ernest Pokropek</a><br>
               <a href="https://www.linkedin.com/in/gyrireiersen/">Gyri Reiersen</a><br>
               <a href="https://www.linkedin.com/in/kenza-amara/">Kenza Amara</a><br>
               <a href="https://www.linkedin.com/in/simona-santamaria/">Simona Santamaria</a><br>
               <a href="https://www.kylemorgenstein.com/">Kyle Morgenstein</a><br>
               <a href="https://www.linkedin.com/in/rishi-sundaresan-0a6012112/">Rishi Sundaresan</a><br>
-              <!-- add Emma, Thomas Huber, Ricky-->
+              <!-- do not add Ricky from ACL bc he didn't receive guidance; I never got to know Emma -->
+              <!-- ask to add Joon Choi -->
               </p>
             </div>
           </div>
@@ -312,6 +268,85 @@
           </div>
 
           <div class="row no-gutters">
+
+            <!-- Digital Twin Earth - Coasts -->
+            <div class="block-3 d-md-flex" data-scrollax-parent="true">
+                <a href="https://youtu.be/7wjtcJxRjKk" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/digital_twin_earth_coasts.jpg')" data-scrollax=" properties: { translateY: '-30%'}" >
+                  <div class="icon d-flex text-center justify-content-center align-items-center">
+                    <span class="icon-videocam"></span>
+                  </div>
+                </a>
+
+              <div class="text order-1">
+                <h2 class="heading"><a>Digital Twin Earth: Coasts</a></h2>
+                <p> Simulating coastal floods at high-resolution is computationally too expensive for real-time inference, uncertainty quantification, or low-income countries. We are leveraging neural operators, a new physics-infused deep learning technique, to learn a coastal flood model that is magnitudes faster. </p>
+                <p>Click for <a href="https://youtu.be/7wjtcJxRjKk">presentation <span class="icon-videocam"></span></a> and <a href="https://arxiv.org/abs/2110.07100">paper<span class="icon-picture_as_pdf"></span></a>.</p>
+                <h4 class="subheading">Presented at <br> NeurIPS ML4PS'21 and <br>NASA/SETI Frontier Development Lab '21<br></h4>
+                <h4 class="subheading">supported by NASA, USGS, MIT Portugal, Institute for Simulation Intelligence, NVIDIA, and Google Cloud</h4>
+              </div>
+            </div>
+
+            <!-- EIE -->
+            <div class="block-3 d-md-flex" data-scrollax-parent="true">
+              <!--div class="column col-md-5 order-2">
+                <a href="https://arxiv.org/abs/2010.08103/" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/eie_trillium_demo_portrait.png'); width:105%; ;" data-scrollax=" properties: { translateY: '-30%'}">
+                  <div class="icon d-flex text-center justify-content-center align-items-center">
+                    <span class="icon-web_asset"></span>
+                  </div>
+                </a>
+                <p> </p>
+              </div-->
+                <a href="https://vimeo.com/452163867/bdeab43474/" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/fdl_oceane.jpg'); background-size:contain; clip:rect(0px,60px,200px,0px);" data-scrollax=" properties: { translateY: '-30%'}">
+                  <div class="icon d-flex text-center justify-content-center align-items-center">
+                    <span class="icon-videocam"></span>
+                  </div>
+                </a>
+
+
+              <!-- TODO: Reintegrate slider once it's on an https address.
+
+              div class="order-2 d-flex justify-content-center align-items-center" style="width:300px; height:555px; overflow:hidden">
+                <iframe src="http://trillium.tech/eie/" height="100%" width="100%" scrolling="no" style="background: #FFFFFF; position:relative; clip:rect(185px,658px,955px,7px); top:-125px; left:0px; "> 
+                </iframe>
+              </div-->
+
+              <div class="text order-1">
+                <h2 class="heading"><a>Earth Intelligence Engine</a></h2>
+                <p>As climate change increases the intensity of natural disasters, society needs better tools for climate risk communication. We are creating a "Google Earth of the future"; a global visualization of how climate change will shape our landscape. On our path, we proposed the first deep learning pipeline to ensure physical-consistency in synthetic satellite imagery and are publishing a dataset on 25k labelled satellite images of coastal floods and melting Arctic sea ice. Explore our results at <a href="https://climate-viz.github.io/">climate-viz.github.io</a>.
+                </p>
+                <p>Click for <a href="https://vimeo.com/452163867/bdeab43474/">presentation <span class="icon-videocam"></span></a>, <a href="https://arxiv.org/abs/2010.08103/">paper <span class="icon-picture_as_pdf"></span></a>, <a href="https://climate-viz.github.io/">demo <span class="icon-web_asset"></span></a>, and <a href="https://gitlab.com/frontierdevelopmentlab/fdl-us-2020-earth-engine/">code <span class="icon-github"></span>.</a></p>
+                <h4 class="subheading">presented at <br>ICLR AIMOCC'21 and <br>NASA/SETI Frontier Development Lab'20</h4>
+                <h4 class="subheading">supported by MIT Portugal, NASA, Google Cloud, and Microsoft AI for Earth</h4>
+              </div>
+            </div>
+
+
+          <!-- ForestBench -->
+          <div class="block-3 d-md-flex" data-scrollax-parent="true">
+            <div class="column col-md-5 order-2">
+            <a href="https://arxiv.org/abs/1912.07850" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/team2.jpeg'); width:105%" data-scrollax=" properties: { translateY: '-30%'}" >
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-picture_as_pdf"></span>
+                </div>
+            </a>
+            <p> </p>
+            <a href="https://youtu.be/Qqs30vFo5_E" target="_blank" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/team.jpg'); width:105%" data-scrollax=" properties: { translateY: '-30%'}" >
+                <div class="icon d-flex text-center justify-content-center align-items-center">
+                  <span class="icon-videocam"></span>
+                </div>
+            </a>
+            </div>
+            <div class="text order-1">
+              <h2 class="heading"><a>ForestBench Consortium</a></h2>
+              <p>Small-holder forest conservation projects are often excluded from global carbon markets, because monitoring the forest carbon is too expensive or inaccurate. 
+                We create deep learning-based forest inventories from drone and smartphone imagery, collected by locals, to cheaply and accurately estimate the tree-sequestered carbon.
+                The transparent carbon monitoring allows local landowners to participate in the global carbon markets and subsidize their livelihood through maintaining and rebuilding rainforest. Learn more at <a href="https://www.forestbench.org/">forestbench.org</a>.</p>
+                <p>Click for <a href="https://youtu.be/Qqs30vFo5_E">presentation <span class="icon-videocam"></span></a>, <a href="https://arxiv.org/abs/2201.11192">AAAI '22 paper <span class="icon-picture_as_pdf"></span></a>, and <a href="https://arxiv.org/abs/1912.07850/">NeurIPS '19 paper <span class="icon-picture_as_pdf"></span></a>.</a></p>
+              <h4 class="subheading"> presented at <br>AAAI'22, <br>ICML CCML'21 (spotlight),<br>ICLR CCML'20 (best proposal paper),<br> KDD Fragile Earth '20,<br> NeurIPS CCAI '19, <br>DGRS '19</h4>
+              <h4 class="subheading">supported by ClimateChange.AI, Schmidt Futures, Quadrature Climate Foundation, MIT PKG, Microsoft AI for Earth, NASA Space Grant, MIT Sandbox, and MIT Legatum</h4>
+            </div>
+          </div>
+
           <!-- GNNs for ENSO -->
           <div class="block-3 d-md-flex" data-scrollax-parent="true">
             <a href="https://arxiv.org/abs/2012.01598" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/enso_teaser.jpg'); background-size:contain" data-scrollax=" properties: { translateY: '-30%'}" >
@@ -330,8 +365,8 @@
 
           <!-- CARRL -->
           <div class="block-3 d-md-flex " data-scrollax-parent="true">
-            <div class="column col-md-5">
-              <a href="https://arxiv.org/abs/1910.12908" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/carrl.jpg'); width:105%" data-scrollax=" properties: { translateY: '-30%'}" >
+            <div class="column col-md-5 order-2">
+              <a href="https://arxiv.org/abs/1910.12908" class="image d-flex justify-content-center align-items-center" style="background-image: url('images/carrl.jpg'); width:105%" data-scrollax=" properties: { translateY: '-30%'}" >
                 <div class="icon d-flex text-center justify-content-center align-items-center">
                   <span class="icon-picture_as_pdf"></span>
                 </div>
@@ -343,7 +378,7 @@
                 </div>
               </a>
             </div>
-            <div class="text order-2">
+            <div class="text order-1">
               <h2 class="heading"><a>Certified Adversarial Robustness for Deep Reinforcement Learning</a></h2>
               <p> Deep Neural networks, used in commercially available driver assistance systems, can fail on hardly detectable adversaries, for example, white stickers on the road. This work has invented an add-on, real-time defense algorithm to certify the robustness of Deep Reinforcement Learning algorithms to such adversaries. Patent pending.</p>
               <small><small><small><a href="https://news.mit.edu/2021/artificial-intelligence-adversarial-0308">MIT News, Algorithm helps artificial intelligence systems dodge “adversarial” inputs </a></small></small></small>
@@ -382,13 +417,14 @@
                 <span class="icon-videocam"></span>
               </div>
             </a>
-            <div class="text order-2">
+            <div class="text order-1">
               <h4 class="subheading">Bachelor Thesis</h4>
               <h2 class="heading"><a>Teleoperation of industrial robots with a motion capture suit</a></h2>
               <p>Instruction of robots through expert programming is expensive. This work creates a cheap instruction method by allowing non-technical users to control a robot in real-time through an afforable motion capture suit.</p>
               <p>Click for <a href="https://www.youtube.com/watch?v=qhLmnPodUmQ">demo <span class="icon-videocam"></span></a> and <a href="https://github.com/blutjens/perc_neuron_ros_ur10">code <span class="icon-github"></span>.</a></p>
             </div>
           </div>
+
           <!-- Animations -->
           <div class="block-3 d-md-flex " data-scrollax-parent="true">
             <!--a href="https://www.youtube.com/watch?v=qhLmnPodUmQ" target="_blank" class="image order-2 d-flex justify-content-center align-items-center" style="background-image: url('images/bachelor_thesis.jpg'); " data-scrollax=" properties: { translateY: '-30%'}">
